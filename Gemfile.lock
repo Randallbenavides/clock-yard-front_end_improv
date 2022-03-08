@@ -725,7 +725,9 @@ GEM
     mime-types (3.2.2)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2018.0812)
-    mimemagic (0.3.2)
+    mimemagic (0.3.10)
+      nokogiri (~> 1)
+      rake
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
     minitest (5.14.1)
@@ -858,7 +860,7 @@ GEM
     thor (0.19.4)
     thread_safe (0.3.6)
     tilt (2.0.10)
-    timecop (0.7.1)
+    timecop (0.9.5)
     title (0.0.7)
       i18n
       rails (>= 3.1)
